@@ -1,0 +1,5 @@
+PHP C-extension (Phalcon)
+C-extensions are loaded together with PHP one time on the web server’s daemon start process
+Classes and functions provided by the extension are ready to use for any application
+The code is compiled and isn’t interpreted because is already compiled to a specific platform and processor
+Thanks to its low-level architecture and optimizations Phalcon provides the lowest overhead for MVC-based applications
