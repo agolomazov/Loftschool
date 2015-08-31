@@ -77,11 +77,7 @@ if($_POST){
             </div>
             <div class="form-group">
                 <label for="">Текст файла</label>
-                <textarea name="file_text" >
-                    <?php
-                    echo file_read($edit_file);
-                    ?>
-                </textarea>
+                <textarea name="file_text"><?=file_read($edit_file);?></textarea>
             </div>
             <div class="form-group">
                 <input class="btn btn-success" type="submit" value="Редактировать">
